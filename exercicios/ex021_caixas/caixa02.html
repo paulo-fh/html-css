@@ -5,77 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grouping Tags</title>
-
     <style>
-        body {
+        body{
             font-family: Arial, Helvetica, sans-serif;
             background-color: dimgray;
-            margin: 0px;
+            margin: 0px
         }
-
-        header {
+        header{
             background-color: white;
+            margin: 10px;
             padding: 10px;
-            margin: 10px;           
-        }
-
-        h1 {
-            box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.5);
-        }
-
-        nav {
-            background-color: rgb(119, 119, 119);
-            padding: 3px;
-            /* text-align: right; */
-            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.345);
-        }
-        nav > a {
-            text-decoration: none;
-            color: white;
-            font-weight: bold; 
-            margin-right: 10px;                      
-        }
-        nav a:hover {
-            text-decoration: underline;
         }
         
-        main {
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315); /*deslocamento, horizontal, vertical, sombra e cor*/
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
             background-color: white;
             padding: 10px;
             margin: 10px;
             border-radius: 10px 0px;
-            box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.384);
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
         }
-        article {
+        article{
             background-color: lightgray;
             padding: 5px;
         }
         article > aside {
-            background-color: rgb(124, 124, 124);
+            background-color: rgb(165, 165, 165);
         }
-
-        footer {
+        footer{
             background-color: black;
             color: white;
             text-align: center;
             padding: 4px;
-            font-weight: bolder;            
         }
-        footer > p {
+        footer > p{
             margin: 0px;
         }
-
-        div#bola {
+        div#bola{
             height: 100px;
             width: 100px;
             margin: 10px auto;
             background-color: white;
             border-radius: 50%;
-            
         }
     </style>
 </head>
-
 <body>
     <header>
         <h1>Meu site</h1>
@@ -89,21 +76,26 @@
     </header>
     <main>
         <section id="assuntos">
-            <p>Esportes Política Tecnologia</p>
+            <p>Esporte Política e Tecnologia</p>
         </section>
         <section id="noticias">
             <article>
-                <h2>Noticias sobre o Brasil</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum asperiores voluptatum totam ea a saepe aliquam tempora enim possimus debitis maxime incidunt ullam itaque ducimus facere rem, deserunt minima doloribus.</p>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos impedit, soluta, sunt obcaecati quos amet eius nulla quia at dolorum voluptatum nam, consequatur asperiores aliquid laboriosam quas maxime quo expedita.</p>
                 <aside>
-                    <p>Artigo escrito por José da Silva</p>
+                    <p>Artigo desenvolvido po José da Silva</p>
                 </aside>
+            </article>
+            <article>
+
             </article>
         </section>
     </main>
     <footer>
-        <p>Desenvolvido pelo CursoemVideos</p>
+        <p>Desenvolvido pelo CursoEmVideo</p>
     </footer>
-    <div id="bola"></div>
+    <div id="bola">
+
+    </div>
 </body>
 </html>
